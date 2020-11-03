@@ -20,3 +20,7 @@
 ### Header Google Clone
 
 * 5 - Maquetado del Header
+### Contenido principal (Main)
+
+* 10 - Maquetando la sección principal
+    >Se crea un main container para nuestro buscardor, se maquetan las etiquetas necesarias. Img logo de google, un input y botónes.

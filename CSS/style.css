@@ -1,5 +1,12 @@
+/* CUERPO */
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-size: 13px;
+  font-family: sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */
