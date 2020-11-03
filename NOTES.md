@@ -1,4 +1,4 @@
-#### GOOGLE Clone
+## Google Clone
 
 ### Introducción
 
@@ -22,4 +22,19 @@
 * 6 - Maquetado del Header
     >Creamos nuestro header, un nav y un ul con li y a; siendo la etiqueta header el padre.
 
+* 7 - Agregando estilos
+    >Empezamos a darle estilos a nuestro header, usando la propiedad flexbox y ubicando nuestra lista.
 
+    ```css
+        .header {
+            width: 100%;
+            height: auto;
+
+                border: 1px solid black;
+
+                &__nav {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+        }
+    ```
