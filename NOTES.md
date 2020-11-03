@@ -24,3 +24,6 @@
 
 * 10 - Maquetando la sección principal
     >Se crea un main container para nuestro buscardor, se maquetan las etiquetas necesarias. Img logo de google, un input y botónes.
+
+* 11 - Estilos en la sección principal
+    >Agregamos el logo de google, y centramos nuestro contenido horizontalmente
