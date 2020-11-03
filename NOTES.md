@@ -38,3 +38,23 @@
                 }
         }
     ```
+
+* 8 - Posicionar una lista en horizontal
+    >Damos espaciado a nuestras anclas y quitamos estilos de lista
+
+    ```css
+        &-rightsection {
+            width: 300px;
+            height: inherit;
+            padding: 0;
+
+                display: inherit;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+            
+            & > li {
+                margin: 0 10px 0 0;
+            }
+        }
+    ```

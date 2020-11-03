@@ -2,8 +2,13 @@
 body {
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 13px;
   font-family: sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer; }
 
 .header {
   width: 100%;
@@ -12,5 +17,15 @@ body {
   .header__nav {
     display: flex;
     justify-content: flex-end; }
+    .header__nav-rightsection {
+      width: 300px;
+      height: inherit;
+      padding: 0;
+      display: inherit;
+      justify-content: center;
+      align-items: center;
+      list-style: none; }
+      .header__nav-rightsection > li {
+        margin: 0 10px 0 0; }
 
 /*# sourceMappingURL=style.css.map */
