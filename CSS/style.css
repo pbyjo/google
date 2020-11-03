@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 13px;
-  font-family: sans-serif; }
+  font-family: Sans-serif; }
 
 a {
   text-decoration: none;
@@ -13,19 +13,36 @@ a {
 .header {
   width: 100%;
   height: auto;
-  border: 1px solid black; }
+  /* border: 1px solid black; */ }
   .header__nav {
     display: flex;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    padding: 2px 0; }
     .header__nav-rightsection {
       width: 300px;
       height: inherit;
       padding: 0;
       display: inherit;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
-      list-style: none; }
-      .header__nav-rightsection > li {
-        margin: 0 10px 0 0; }
+      list-style: none;
+      padding-right: 15px; }
+      .header__nav-rightsection > li > a {
+        margin: 0 15px 0 0; }
+        .header__nav-rightsection > li > a > img {
+          width: 100%;
+          max-width: 32px;
+          height: 32px;
+          border-radius: 50%; }
+      .header__nav-rightsection_menu {
+        background-image: url(../Items/menu-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25px 25px;
+        width: 100%;
+        max-width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin: 0 20px 0 5px; }
 
 /*# sourceMappingURL=style.css.map */

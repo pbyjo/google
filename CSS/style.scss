@@ -7,7 +7,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 13px;
-    font-family: sans-serif;
+    font-family: Sans-serif;
 }
 
 a {
@@ -20,25 +20,50 @@ a {
     width: 100%;
     height: auto;
 
-        border: 1px solid black;
+        /* border: 1px solid black; */
 
-        &__nav {
-            display: flex;
-            justify-content: flex-end;
+    &__nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 2px 0;
+        &-rightsection {
+            width: 300px;
+            height: inherit;
+            padding: 0;
 
-            &-rightsection {
-                width: 300px;
-                height: inherit;
-                padding: 0;
+                display: inherit;
+                justify-content: flex-end;
+                align-items: center;
+                list-style: none;
+                padding-right: 15px;
 
-                    display: inherit;
-                    justify-content: center;
-                    align-items: center;
-                    list-style: none;
-                
-                & > li {
-                    margin: 0 10px 0 0;
+            & > li {
+
+                & > a {
+                    margin: 0 15px 0 0;
+                    & > img {
+                        width: 100%;
+                        max-width: 32px;
+                        height: 32px;
+
+                            border-radius: 50%;
+                    }
                 }
+            } 
+
+            &_menu {
+                background-image: url(../Items/menu-icon.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 25px 25px;
+
+                width: 100%;
+                max-width: 25px;
+                height: 25px;
+
+                    cursor: pointer;
+                    margin: 0 20px 0 5px;
             }
         }
+    }
 }

@@ -58,3 +58,8 @@
             }
         }
     ```
+
+* 9 - Manejo de íconos e imágenes en etiquetas
+    > Le damos los ultimos detalles a nuestro header, agregamos img de perfil, icono de menu en formato svg y margenes finales.
+
+
