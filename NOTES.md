@@ -27,3 +27,6 @@
 
 * 11 - Estilos en la sección principal
     >Agregamos el logo de google, y centramos nuestro contenido horizontalmente
+
+* 12 - Estilos en la sección del input
+    >Le dimos estilo a nuestro input y su contenedor
