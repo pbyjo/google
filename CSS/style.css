@@ -1,5 +1,43 @@
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: sans-serif; }
+
+.footer {
+  /* height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;   */
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
+  .footer__container {
+    display: flex;
+    flex-flow: column;
+    margin-top: auto;
+    /* height: 80px; */
+    background-color: #F2F2F2;
+    font-size: 15px;
+    color: #6F6F6F; }
+    .footer__container .footer_1 {
+      display: inherit;
+      align-items: center;
+      height: 50%;
+      padding: 11px 0px 11px 30px;
+      border-top: 1px solid #DADCE0; }
+    .footer__container .footer_2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50%;
+      border-top: 1px solid #DADCE0; }
+      .footer__container .footer_2 > div {
+        display: flex;
+        grid-gap: 25px;
+        padding: 11px 30px; }
+        .footer__container .footer_2 > div > a {
+          text-decoration: none;
+          color: #6F6F6F; }
+        .footer__container .footer_2 > div > a:hover {
+          text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,22 +1,58 @@
-#### GOOGLE Clone
+### Footer Google Clone
 
-### Introducción
+* 15 - Maquetando el footer
+    >Agregamos nuestras etiquetas necesarias para crear el footer, creamos dos sections. En el segundo sections tenemos dos div para generar nuestros link text
 
-### Análisis y creación del proyecto
+* 16 - Estilos en Footer
+    >Creamos nuestros estilos para el footer en css, y terminamos nuestro footer
 
-* 2 - Análisis del proyecto Google Clone
-    > El proyecto de este curso será crear un clon del buscador de google.
+    ```css 
+        .footer {
+        height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;  
 
-* 3 - Configuración del proyecto
-    > Setup del proyecto.
+            &__container {
+                display: flex;
+                flex-flow: column;
+                margin-top: auto;
+                height: 80px;
+                background-color: #F2F2F2;
+                border-top: 1px solid #DADCE0;
+                font-size: 15px;
+                color: #6F6F6F;
+                
+                .footer_1 {
+                    display: inherit;
+                    align-items: center;
 
-    Index, CSS, Items, Notes.md
+                        height: 50%;
+                        padding-left: 30px;
+                }
 
-### Chrome Dev Tools como herramienta 
+                .footer_2 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 50%;
+                    
+                    border-top: 1px solid #DADCE0;
+                    
+                    & > div {
+                        display: flex;
+                        grid-gap: 25px;
+                        padding: 0 30px;
 
-* 4 - Chrome Chrome Dev Tools
-    >Chrome Dev Tools o Firefox developer edition
+                        & > a {
+                            text-decoration: none;
+                            color: #6F6F6F;
+                        }
 
-### Header Google Clone
-
-* 5 - Maquetado del Header
+                        & > a:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    ```
