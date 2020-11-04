@@ -30,3 +30,6 @@
 
 * 12 - Estilos en la sección del input
     >Le dimos estilo a nuestro input y su contenedor
+
+* 13 - Íconos y manejo de background hover
+    >Colocamos los dos iconos que lleva nuestro input, le damos su estilo final y agregamos efecto hover en el buscador
