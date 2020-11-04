@@ -5,6 +5,11 @@
     box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.2);
 }
 
+.boxshadow-buttons {
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2); 
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
 .background-image {
     background-repeat: no-repeat;
     background-position: center;
@@ -90,6 +95,45 @@ a {
         &-div:hover {
             @extend .boxshadow;
             border-color: #dfe1e500;
+        }
+    }
+
+    &-buttons {
+        display: flex;
+        margin: 0 auto;
+        grid-gap: 15px;
+
+        &_button {
+            /* display: inline-block; podriamos reemplazar el display flex del padre por inline en el mismo container de button */
+            
+            & > button {
+                color: rgb(66, 66, 66);
+                padding: 8px 15px;
+                background-color:  rgba(235, 227, 227, 0.3);
+                border: none;
+                cursor: pointer;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+
+            & > button:hover {
+                @extend .boxshadow-buttons;
+                color: black;
+            }
+        }
+    }
+
+    &-offered {
+        margin-top: 20px;
+
+        & > p {
+            
+            & > a {
+                color: #1A0DAB;
+            }
+            & > a:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

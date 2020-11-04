@@ -33,3 +33,6 @@
 
 * 13 - Íconos y manejo de background hover
     >Colocamos los dos iconos que lleva nuestro input, le damos su estilo final y agregamos efecto hover en el buscador
+
+* 14 - Estilos en los botones
+    >Terminamos de dar estilos a nuestros bótones, y agregamos texto adicional de región. Main terminado
