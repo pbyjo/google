@@ -1,4 +1,4 @@
-## Google Clone
+## Google Clone ⌨️ 💻 🇬 
     
     Este es un proyecto Frontend sobre google clone;
     En el encontrarán todas las clases por commits y las secciones por branches con un merge en el master.
